@@ -1,0 +1,23 @@
+<%- include("partials/header"); -%> 
+ <body>
+    
+ 
+<h1>Update the title and content</h1><br>
+<form action="/compose" method="post">
+    <div class="form-group">
+        <label for="">New Title</label>
+        <input type="text" class="form-control" name="NpostTitle">
+
+        <label for="">New Post</label>
+        <textarea name="NpostContent" id="" class="form-control" cols="30"></textarea>
+        
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+
+</form>
+
+
+<%- include("partials/footer"); -%> 
+
+ </body>
